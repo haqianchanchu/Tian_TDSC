@@ -1,0 +1,6 @@
+使用库pypbc，配置查询如下链接https://blog.csdn.net/u013983667/article/details/54582126
+用my_init文件封装了群元素的运算作为底层包，调用circle.para作为初始化群的信息，实现了基本的群元素运算，哈希等等
+用AES.py封装了底层的加密和转码
+主要实现模式为两个类，server与client进行交互，upload为数据上传阶段（包括初始和后续），Auth为审计，Auth_update为审计标签更新，retrive为数据下载
+save_time为测量时间的运行脚本，其余为存储数据
+具体运行是需要先uoload，才能后续操作
